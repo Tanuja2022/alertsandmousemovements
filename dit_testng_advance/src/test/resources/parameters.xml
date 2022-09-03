@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="Parameterization">
+
+        <parameter name="username" value="Rajnikanth"></parameter>
+        <parameter name="password" value="Thalaivar"></parameter>
+        <parameter name="dateOfBirth" value="12Dec1950"></parameter>
+        <parameter name="city" value="Chennai"></parameter>
+
+        <classes>
+            <class name="uk.axone.testngadvanced.TestHowParameterizationWorks">
+            </class>
+        </classes>
+    </test>
+</suite>
